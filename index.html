@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Réservez votre séance de coaching en ligne personnalisée. Choisissez votre objectif (cardio, musculation, perte de poids, prise de masse) et votre créneau avec nos coachs experts.">
+    <title>Ma Salle - Landing Page & Réservation de Coaching Sportif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="6" width="3" height="12" rx="1.5" fill="currentColor" />
+                    <rect x="6" y="8" width="2" height="8" rx="1" fill="var(--primary)" />
+                    <rect x="8" y="11" width="8" height="2" fill="currentColor" />
+                    <rect x="16" y="8" width="2" height="8" rx="1" fill="var(--primary)" />
+                    <rect x="19" y="6" width="3" height="12" rx="1.5" fill="currentColor" />
+                </svg>
+                <span>Ma Salle</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#concept" class="nav-link">Concept</a>
+                <a href="#equipe" class="nav-link">L'Équipe</a>
+                <a href="#reservation" class="btn btn-primary" id="nav-booking-btn">Réserver</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-glow-1"></div>
+                <div class="hero-glow-2"></div>
+            </div>
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="badge">Coaching en ligne haut de gamme</span>
+                        <h1 class="hero-title">Atteignez Vos Objectifs <br><span class="text-gradient">Sans Limites</span></h1>
+                        <p class="hero-desc">Bénéficiez d'un accompagnement sur-mesure avec nos experts. Réservez votre créneau en 2 minutes via notre questionnaire interactif et commencez votre transformation dès aujourd'hui.</p>
+                        <div class="hero-btns">
+                            <a href="#reservation" class="btn btn-primary">Démarrer ma réservation</a>
+                            <a href="#concept" class="btn btn-outline">Découvrir le concept</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <h3>3</h3>
+                                <p>Coachs Experts</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>98%</h3>
+                                <p>De Satisfaction</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>24/7</h3>
+                                <p>Suivi en ligne</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal">
+                        <div class="hero-circle">
+                            <div class="hero-circle-inner"></div>
+                        </div>
+                        <div class="hero-card hero-card-1">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.283 8.283 0 013.937-2.187 8.282 8.282 0 002.425-2.2z" />
+                                </svg>
+                            </div>
+                            <h4>Cardio & HIIT</h4>
+                            <p>Brûlez les graisses rapidement.</p>
+                        </div>
+                        <div class="hero-card hero-card-2">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                                </svg>
+                            </div>
+                            <h4>Force & Volume</h4>
+                            <p>Développez votre musculature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONCEPT SECTION -->
+        <section id="concept" class="section-padding reveal">
+            <div class="container">
+                <div class="text-center">
+                    <span class="badge">Notre approche</span>
+                    <h2 class="section-title">Choisissez Votre Voie</h2>
+                    <p class="section-subtitle">Chaque programme est conçu spécifiquement pour répondre à vos besoins uniques et s'adapter à votre rythme de vie.</p>
+                </div>
+                <div class="concept-grid">
+                    <div class="concept-card">
+                        <div class="concept-num">01</div>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            </svg>
+                        </div>
+                        <h3>Cardio</h3>
+                        <p>Améliorez votre endurance cardiaque, renforcez votre souffle et gagnez en énergie au quotidien.</p>
+                    </div>
+                    <div class="concept-card">
+                        <div class="concept-num">02</div>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                            </svg>
+                        </div>
+                        <h3>Musculation</h3>
+                        <p>Prenez de la force, sculptez votre silhouette et optimisez votre posture grâce à des exercices ciblés.</p>
+                    </div>
+                    <div class="concept-card">
+                        <div class="concept-num">03</div>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                        <h3>Perte de poids</h3>
+                        <p>Éliminez durablement la masse grasse grâce à une synergie entre sport adapté et conseils nutritionnels.</p>
+                    </div>
+                    <div class="concept-card">
+                        <div class="concept-num">04</div>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </div>
+                        <h3>Prise de masse</h3>
+                        <p>Maximisez votre volume musculaire et optimisez vos apports caloriques pour un développement sain.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM SECTION -->
+        <section id="equipe" class="section-padding team-bg reveal">
+            <div class="container">
+                <div class="text-center">
+                    <span class="badge">Les experts</span>
+                    <h2 class="section-title">Rencontrez Vos Coachs</h2>
+                    <p class="section-subtitle">Une équipe fictive mais une expertise bien réelle. Découvrez les profils qui vous mèneront vers votre meilleur niveau physique.</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="assets/coach_cardio.jpg" alt="Sarah Miller - Coach Cardio" class="team-img">
+                            <div class="team-overlay"></div>
+                        </div>
+                        <div class="team-info">
+                            <div class="team-role">Cardio & HIIT Expert</div>
+                            <h3 class="team-name">Sarah Miller</h3>
+                            <p class="team-bio">Athlète passionnée, Sarah conçoit des entraînements haute intensité rythmés et motivants pour dynamiser votre quotidien et exploser votre endurance.</p>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="assets/coach_musculation.jpg" alt="Marcus Vane - Coach Musculation" class="team-img">
+                            <div class="team-overlay"></div>
+                        </div>
+                        <div class="team-info">
+                            <div class="team-role">Musculation & Force</div>
+                            <h3 class="team-name">Marcus Vane</h3>
+                            <p class="team-bio">Spécialiste de l'haltérophilie et de l'hypertrophie, Marcus vous guide avec rigueur sur la technique pour bâtir un corps puissant et résistant.</p>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-img-wrapper">
+                            <img src="assets/coach_nutrition.jpg" alt="Julie Dubreuil - Coach Nutrition" class="team-img">
+                            <div class="team-overlay"></div>
+                        </div>
+                        <div class="team-info">
+                            <div class="team-role">Nutrition & Perte de Poids</div>
+                            <h3 class="team-name">Julie Dubreuil</h3>
+                            <p class="team-bio">Diététicienne du sport agréée, Julie associe science de la nutrition et programmation sportive pour des résultats durables et sains.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESERVATION SECTION -->
+        <section id="reservation" class="section-padding reveal">
+            <div class="container reservation-container">
+                <div class="text-center">
+                    <span class="badge">Formulaire</span>
+                    <h2 class="section-title">Planifiez Votre Séance</h2>
+                    <p class="section-subtitle">Répondez à notre questionnaire rapide pour bloquer votre créneau en ligne directement.</p>
+                </div>
+
+                <div class="booking-wrapper" style="padding: 24px 16px; min-height: 600px; display: flex; flex-direction: column;">
+                    <iframe data-tally-src="https://tally.so/embed/ja7D49?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="597" frameborder="0" marginheight="0" marginwidth="0" title="Inscription à la salle"></iframe>
+                    <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo" style="display: flex; align-items: center; gap: 8px;">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="6" width="3" height="12" rx="1.5" fill="currentColor" />
+                        <rect x="6" y="8" width="2" height="8" rx="1" fill="var(--primary)" />
+                        <rect x="8" y="11" width="8" height="2" fill="currentColor" />
+                        <rect x="16" y="8" width="2" height="8" rx="1" fill="var(--primary)" />
+                        <rect x="19" y="6" width="3" height="12" rx="1.5" fill="currentColor" />
+                    </svg>
+                    <span>Ma Salle</span>
+                </div>
+                <p>&copy; 2026 Ma Salle. Tous droits réservés. Design sobre et moderne.</p>
+                <div class="footer-links">
+                    <a href="#concept" class="footer-link">Concept</a>
+                    <a href="#equipe" class="footer-link">L'Équipe</a>
+                    <a href="#reservation" class="footer-link">Réservation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
